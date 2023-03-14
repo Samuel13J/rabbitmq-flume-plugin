@@ -29,7 +29,7 @@ import org.slf4j.LoggerFactory;
 public class Consumer implements Runnable {
 
     private static final Logger logger = LoggerFactory.getLogger(Consumer.class);
-
+//
     private static final String COUNTER_ACK = "rabbitmq.ack";
     private static final String COUNTER_EXCEPTION = "rabbitmq.exception";
     private static final String COUNTER_REJECT = "rabbitmq.reject";
